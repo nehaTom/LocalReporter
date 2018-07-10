@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+
+
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/home"
+            android:title="Home" />
+        <item
+            android:id="@+id/language"
+            android:icon="@drawable/language"
+            android:title="Language" />
+
+        <item
+            android:id="@+id/services"
+            android:icon="@drawable/services"
+            android:title="Services" />
+        <item
+        android:id="@+id/setting"
+        android:icon="@drawable/setting"
+        android:title="setting" />
+        <item
+            android:id="@+id/news"
+            android:icon="@drawable/news"
+            android:title="News" />
+        <item
+            android:id="@+id/faq"
+            android:icon="@drawable/faq"
+            android:title="FAQ" />
+        <item
+        android:id="@+id/login"
+        android:icon="@drawable/login"
+        android:title="FAQ" />
+
+        <item
+        android:id="@+id/contact_us"
+        android:icon="@drawable/contact"
+        android:title="Contact us" />
+
+</menu>

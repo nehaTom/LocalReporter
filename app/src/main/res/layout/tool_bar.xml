@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:id="@+id/tool_bar"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:orientation="horizontal"
+    android:background="@color/dark">
+    <ImageView
+        android:id="@+id/menuBtn"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="5dp"
+        android:background="@drawable/menu"/>
+
+    <ImageView
+
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="110dp"
+        android:background="@drawable/logo"
+        android:scaleType="fitCenter" />
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+           android:layout_gravity="center"
+        android:layout_marginLeft="100dp"
+        android:background="@drawable/language"
+        android:scaleType="fitCenter"/>
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/location"
+        android:scaleType="fitCenter"/>
+</LinearLayout>
+</android.support.constraint.ConstraintLayout>

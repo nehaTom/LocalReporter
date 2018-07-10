@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.admin.news.Image_Food">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="220dp"
+    android:layout_marginTop="10dp"
+    android:background="@drawable/food"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="5dp"
+
+        android:text="What are some mind-blowing facts about food?"
+        android:textColor="@color/black"
+        android:textSize="@dimen/largeFont"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="5dp"
+        android:text="In early Sanskrit writings from the 4th century BC (as well as Tamil literature from 1st - 4th century AD) coconuts have been mentioned and was referred to as kalpa vriksha or the 'the tree that fulfils all needs' and in Indonesia it is said the coconut has as many uses as there are days of the year.
+
+It provides:
+
+Food
+Drink
+Timber
+Fuel
+Chemicals
+Yeast
+
+From it you can make:
+
+Thatch
+Baskets
+Rope
+Brushes
+Brooms
+Coir (thanks to Rajnish Kumar)
+
+It can be used as intravenous rehydration drips as it’s sterile.
+If you’ve had your tooth knocked out, immersing it in coconut water inhibits the growth of bacteria so it can be safely reinserted.
+Coconuts can float around in the sea for three months and still grow into a palm when they finally wash ashore.
+In Tahiti one person is killed every other year by a falling coconut.
+DaimlerChrysler make biodegradable seats for their trucks out of coconut husks.
+Coconut root is liquefied to make mouthwash and a flour made from the shell used to clean jet engines.
+Coconut water is an excellent hangover cure.
+Coconut ferments so quickly in the heat, in can be turned into wine, liquor or vinegar (thanks John Burgess).
+"
+
+        android:textSize="@dimen/smallFontL"/>
+
+</LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
